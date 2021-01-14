@@ -10,10 +10,10 @@ module.exports = {
 	direction: "ltr",
 
 	description:
-		"A design built on top of Specimen Skeleton, based on research insights into effective digital type specimens.", // The description of your type specimen.
+		"A type specimen design to test the font, share use cases and offer more information about the design.", // The description of your type specimen.
 
 	typeface: "Farmer", // The name of the typeface you are building
-	link: "https://www.vicenteakira.com", // This is the URL used for the button
+	link: "https://github.com/vicenteakira/farmer-font", // This is the URL used for the button
 	about:
 		"Designed for applications and projects with transparent objectives, social benefit, knowledge dissemination, sustainability and informal identity. </br> </br> Farmer is a typeface designed for display sizes, with rounded serifs inspired by the organic forms of nature and popular fonts of the 1970s, giving it an innocent, fun, kitschy and retro look.", // All about the typeface
 	designers: "Vicente Akira", // And who designed it
@@ -25,31 +25,31 @@ module.exports = {
 	metatags: [
 		{
 			property: "og:title",
-			content: ""
+			content: "Farmer an innocent, fun, kitschy and retro looking font"
 		},
 		{
 			property: "og:description",
-			content: ""
+			content: "Designed for applications and projects with transparent objectives, social benefit, knowledge dissemination, sustainability and informal identity. Farmer is a typeface designed for display sizes, with rounded serifs inspired by the organic forms of nature and popular fonts of the 1970s, giving it an innocent, fun, kitschy and retro look."
 		},
 		{
 			property: "og:image",
-			content: ""
+			content: "../img/Farmer_website.png"
 		},
 		{
 			property: "og:url",
-			content: ""
+			content: "https://eina.vicenteakira.com/farmer/"
 		},
 		{
 			property: "og:site_name",
-			content: ""
+			content: "Farmer Typeface"
 		},
 		{
 			name: "twitter:card",
-			content: ""
+			content: "Farmer an innocent, fun, kitschy and retro looking font"
 		},
 		{
 			name: "twitter:image:alt",
-			content: ""
+			content: "Farmer a typeface designed for display sizes, with rounded serifs inspired by the organic forms of nature and popular fonts of the 1970s, giving it an innocent, fun, kitschy and retro look."
 		}
 	]
 };
