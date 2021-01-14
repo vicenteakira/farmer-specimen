@@ -15,29 +15,11 @@
 			rel="stylesheet"
 			href="{% webpackAssetPath '../css/main.css' %}"
 		/>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+
 		<script defer src="{% webpackAssetPath '../js/main.js' %}"></script>
-		<!-- <script>
-			document.documentElement.setAttribute(
-				"data-dark-mode",
-				localStorage.getItem("dark-mode")
-			);
-		</script> -->
 	</head>
 
 	<body>
 		{{ content }}
 	</body>
-	<!-- <script>
-		document
-			.querySelector(".dark-mode-toggle")
-			.addEventListener("click", () => {
-				const isDarkMode = localStorage.getItem("dark-mode") === "true";
-				document.documentElement.setAttribute(
-					"data-dark-mode",
-					!isDarkMode
-				);
-				localStorage.setItem("dark-mode", !isDarkMode);
-			});
-	</script> -->
 </html>

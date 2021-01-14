@@ -15,11 +15,11 @@ module.exports = {
 	typeface: "Farmer", // The name of the typeface you are building
 	link: "https://www.vicenteakira.com", // This is the URL used for the button
 	about:
-		"The mission of the Scientific and Technical Information Exchange (STIX) font creation project is the preparation of a comprehensive set of fonts that serve the scientific and engineering community in the process from manuscript creation through final publication, both in electronic and print formats.", // All about the typeface
+		"Designed for applications and projects with transparent objectives, social benefit, knowledge dissemination, sustainability and informal identity. </br> </br> Farmer is a typeface designed for display sizes, with rounded serifs inspired by the organic forms of nature and popular fonts of the 1970s, giving it an innocent, fun, kitschy and retro look.", // All about the typeface
 	designers: "Vicente Akira", // And who designed it
 	coverage: "Latin", // This populates the link that anchors to the list of languages.
 	language:
-		"Albanian, Asu, Basque, Bemba, Bena, Chiga, Cornish, Dutch, English, Filipino, Galician, Gusii, Hungarian, Indonesian, Irish, Italian, Kabuverdianu, Kalenjin, Kinyarwanda, Luo, Luxembourgish, Luyia, Machame, Makhuwa-Meetto, Makonde, Manx, Morisyen, North, Ndebele, Nyankole, Oromo, Quechua, Romansh, Rombo, Rundi, Rwa, Samburu, Sangu, Scottish, Gaelic, Shambala, Shona, Soga, Somali, Spanish, Swahili, Swiss, German, Taita, Teso, Uzbek (Latin), Volapük, Vunjo, Zulu.",
+		"Albanian, Asu, Basque, Bemba, Bena, Catalan, Chiga, Cornish, Dutch, English, Filipino, Galician, Gusii, Hungarian, Indonesian, Irish, Italian, Kabuverdianu, Kalenjin, Kinyarwanda, Luo, Luxembourgish, Luyia, Machame, Makhuwa-Meetto, Makonde, Manx, Morisyen, North  Ndebele, Nyankole, Oromo, Quechua, Romansh, Rombo, Rundi, Rwa, Samburu, Sangu, Scottish, Gaelic, Shambala, Shona, Soga, Somali, Spanish, Swahili, Swiss, German, Taita, Teso, Uzbek (Latin), Volapük, Vunjo, Zulu.",
 
 	// More info: https://css-tricks.com/essential-meta-tags-social-media/
 	metatags: [

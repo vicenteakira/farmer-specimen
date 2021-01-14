@@ -16,18 +16,27 @@ layout: default.html
 	{% assign main_id = 0 %}
 	{% assign main_selector = fontdata[main_id].selector %}
 
-		{% include navigation.html %}
+	{% include navigation.html %}
+	<div class="container">
+		{% include specimen-1.html %}
+	</div>
 	<div class="container">
 		{% include masthead.html %}
 	</div>
-	<div class="container">
+	<div class="container" id="test">
 		{% include interactive-controls.html %}
 	</div>
 	<div class="container">
-		{% include specimen.html %}
+		{% include specimen-2.html %}
 	</div>
 	<div class="container">
 		{% include setting.html %}
+	</div>
+	<div class="container">
+		{% include specimen-3.html %}
+	</div>
+	<div class="container" id="examples">
+		{% include slider.html %}
 	</div>
 	<div class="container">
 		{% include character-grid.html %}

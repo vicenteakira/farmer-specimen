@@ -1,23 +1,25 @@
 <div class="setting pb-3u pt-3u">
 	<div class="column-1">
 		<p class="meta">Font size: xxxl</p>
-		<p class="type-3xl {% include utilities/reading-direction.html %} fw900 lh09 {{ main_selector }}">{{ content.setting1 }}</p>
+		<p class="type-3xl {% include utilities/reading-direction.html %} lh11 {{ main_selector }}">{{ content.setting1 }}</p>
 
 		<p class="meta">Font size: xxl</p>
-		<p class="type-2xl {% include utilities/reading-direction.html %} fw500 lh10 {{ main_selector }}">{{ content.setting2 }}</p>
+		<p class="type-2xl {% include utilities/reading-direction.html %} lh10 {{ main_selector }}">{{ content.setting2 }}</p>
 
 		<p class="meta">Font size: l</p>
-		<p class="type-l {% include utilities/reading-direction.html %} fw300 {{ main_selector }}">{{ content.setting3 }}</p>
+		<p class="type-l {% include utilities/reading-direction.html %} {{ main_selector }}">{{ content.setting3 }}</p>
 	</div>
 
-	<div class="column-2 align-justify">
-		<p class="meta centre">Font size: m</p>
-		<p class="type-m {% include utilities/reading-direction.html %} {{ main_selector }}">{{ content.setting4 }}</p>
-
-		<p class="meta centre">Font size: 1em</p>
-		<p class="columns-2 {% include utilities/reading-direction.html %} {{ main_selector }}">{{ content.setting5 }}</p>
-
-		<p class="meta centre">Font size: s</p>
-		<p class="columns-3 type-s {% include utilities/reading-direction.html %} {{ main_selector }}">{{ content.setting6 }}</p>
+	<div class="column-2">
+		<p class="meta centre">Design process</p>
+		<p>The sketches are started using the wiggling technique, but then two pencils are used to simulate a calligraphic pen or a wide-point pen. Edward Johnston's "Foundational Hand Script" serves as a skeleton and model for creating the shapes.
+		
+		<img src="{% webpackAssetPath '../img/scanned_process_1.jpg' %}">
+		
+		<p>Once the forms are created on paper, we proceed to copy and alter the form freely until we get angles and curves coherent with the brief. To emphasize the organic and imperfect forms, it is iterated several times over the same sketch, creating imperfect copies that simulate a natural mutation.</p>
+		<img src="{% webpackAssetPath '../img/scanned_process_2.jpg' %}">
+		<p>The design process follows a key order: sketching, scanning, printing and manual correction by tracing the print. This last step allows you to achieve a more organic look and create various iterations quickly.</p>
+		<img src="{% webpackAssetPath '../img/scanned_process_3.jpg' %}">
+		<p>The tracing of the print or "resketch " is done with a thick tip pen, since it makes it difficult to copy accurately and indirectly to achieve the desired effect.</p>
 	</div>
 </div>
