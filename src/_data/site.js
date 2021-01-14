@@ -37,7 +37,7 @@ module.exports = {
 		},
 		{
 			property: "og:url",
-			content: "https://eina.vicenteakira.com/farmer/"
+			content: "https://github.com/vicenteakira/farmer-font"
 		},
 		{
 			property: "og:site_name",

@@ -239,6 +239,12 @@ img {
 }
 
 /* Line height */
+.lh03 {
+	line-height: 0.3;
+}
+.lh04 {
+	line-height: 0.4;
+}
 .lh05 {
 	line-height: 0.5;
 }
@@ -395,6 +401,29 @@ img {
 	background-color: var(--background);
 	color: var(--text);
 	border: 1px solid var(--text);
+}
+
+.i-faux-button {
+	background-color: var(--background);
+	display: inline-block;
+	padding: 1em 3em;
+	margin: 1em 0 0 0;
+	color: var(--text);
+	text-decoration: none;
+	font-weight: 600;
+	border: 1px solid var(--text);
+	transition-duration: 200ms;
+	transition-property: color, background-color, border;
+	transition-timing-function: ease;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+.i-faux-button:hover {
+	background-color: var(--text);
+	color: var(--background);
+	border: 1px solid var(--background);
 }
 
 /* Meta */
