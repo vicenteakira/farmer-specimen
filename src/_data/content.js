@@ -3,7 +3,7 @@
 
 module.exports = {
 	// Masthead
-	poster: "farmer", // This appears as the three large glyphs at the top. Change this to a few interesting glyphs that summarise the typeface. Ψ℘ℜ
+	poster: "abc123", // This appears as the three large glyphs at the top. Change this to a few interesting glyphs that summarise the typeface. Ψ℘ℜ
 
 	// Tester. This is the default text for the type tester.
 	tester: "What are you waiting for? Try me now",
@@ -18,6 +18,5 @@ module.exports = {
 	// Setting. These four variables correspond to each block of text in the setting container.
 	setting1: "The quick brown fox jumps over the lazy dog.",
 	setting2: "The quick brown fox jumps over the lazy dog.",
-	setting3:
-		"The quick brown fox jumps over the lazy dog.",
+	setting3: "The quick brown fox jumps over the lazy dog.",
 };

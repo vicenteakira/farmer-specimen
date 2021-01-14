@@ -66,7 +66,7 @@
 				<label for="interactive-controls-fontsize">Size</label>
 				<input
 					type="range"
-					min="9"
+					min="30"
 					max="92"
 					value="48"
 					name="font-size"
@@ -97,6 +97,7 @@
 				{% endfor %}
 			</ul>
 		{% endif %}
+		<p class="metaLower">Font may appear bolder on some browsers</p>
 	</div>
 	<div class="interactive-controls-text {% include utilities/reading-direction.html %} {{ main_selector }}" contenteditable="true">
 		<h1>
